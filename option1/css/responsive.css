@@ -1,0 +1,431 @@
+/* =================================================
+
+Template Name:  Sporsho - One Page Wedding Invitation Template
+Author: MouriTheme
+Version: 1.0
+Design and Developed by: MouriTheme
+
+NB: This is the main stylesheet of this theme.
+
+=================================================== */
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+    /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 35px 0;
+    }
+
+    .navbar-nav {
+        margin: 15px 0;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 0;
+    }
+
+    .nav > li > a {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .navbar-brand {
+        padding: 15px 0;
+    }
+
+    .mouse-icon {
+        bottom: -320px;
+    }
+
+    .welcome-text h2 {
+        font-size: 5.5em;
+    }
+
+    .about-text p {
+        line-height: 1.7em;
+    }
+
+    .team-member .team-designation {
+        padding: 10px 0;
+    }
+    .team-member h2 {
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .team-member p {
+        font-size: 13px;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-area nav ul li {
+        padding: 5px 15px;
+        margin-left: 5px;
+    }
+
+    .testimonial-content p {
+        font-size: 16px;
+    }
+
+    .contact-area {
+        background-position: inherit;
+    }
+
+    .single-pricing .heading {
+        font-size: 15px;
+    }
+    .single-pricing .price-value {
+        font-size: 40px;
+    }
+    .single-pricing .month {
+        right: -35px;
+    }
+
+    .discussion-area .custom-button-4 {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing .pricing-content ul li {
+        padding: 5px 0;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .single-pricing .read {
+        font-size: 14px;
+    }
+    .banner-text-area h1 {
+        font-size: 2em;
+    }
+
+    .slider-middle-text {
+        top: 40%;
+    }
+
+    .single-video {
+        margin-bottom: 30px;
+    }
+
+    #testimonial-carousel .item p {
+        width: 80%;
+    }
+
+    .event-text h4 {
+        font-size: 15px;
+    }
+
+    .wrapper.bb-right {
+        margin-top: 40px;
+    }
+
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .section-header h2 {
+        font-size: 30px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #ff4545;
+    }
+
+    .navbar-nav {
+        display: inherit;
+        background-color: transparent;
+    }
+
+    .navbar-nav li {
+        float: left;
+        display: inherit;
+        width: 100%;
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        height: 740px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+        text-align: center;
+    }
+    .navbar-right li a {
+        text-align: center;
+    }
+
+    .navbar-right li a {
+        padding: 10px;
+    }
+
+    .welcome-text h3 {
+        font-size: 1.5em;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .welcome-text h2 {
+        font-size: 2.5em;
+        line-height: 60px;
+    }
+
+    .welcome-text h5 {
+        font-size: 20px;
+    }
+
+    .section-header img {
+        width: 60%;
+    }
+
+    .banner-btn a {
+        padding: 7px 15px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .section-header {
+        margin-bottom: 30px;
+    }
+
+    .about-main .banner-btn a {
+        margin-bottom: 30px;
+    }
+
+    ul.filter-list {
+        padding: 0 0 40px 0;
+    }
+
+    .single-blog {
+        margin-bottom: 30px;
+    }
+
+    #testimonial-carousel .item p {
+        width: 90%;
+    }
+
+    .btn.btn-send {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .contact-area .top-ddd {
+        margin-top: -5.125rem;
+    }
+
+    .single-footer-top {
+        margin-bottom: 40px;
+    }
+
+    .footer-top-area {
+        padding: 45px 0;
+    }
+
+    .photo-galleries ul li a img {
+        width: 85px;
+        cursor: crosshair;
+    }
+
+    .row.discussion-reply {
+        margin-left: 20px;
+    }
+
+    .discussion-items img {
+        width: 38%;
+    }
+
+    .discussion-metadata h5 {
+        margin-top: 10px;
+    }
+
+    .banner-text-area h1 {
+        font-size: 1.4em;
+        line-height: 30px;
+        margin: 10px 0 0;
+    }
+    .banner-text-area h3 {
+        font-size: 1.3em;
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    .slider-middle-text {
+        top: 40%;
+    }
+
+    .slide-btn a {
+        padding: 10px 15px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .slide-control {
+        color: rgba(255,255,255,0.4);
+        font-size: 50px;
+        left: 10px;
+        margin-top: -45px;
+    }
+
+    .slide-control.right {
+        right: 10px;
+    }
+
+    .slide-control:hover,
+    .slide-control:focus{
+        color: rgba(255,255,255,0.4);
+    }
+
+    .blog-text h2 a {
+        font-size: 15px;
+    }
+
+    .male-text {
+        margin-top: 60px;
+    }
+
+    .line {
+        border: none;
+        margin: 0;
+    }
+
+    .wrapper {
+        width: 300px;
+        margin-top: 60px;
+    }
+
+    #clock-sec {
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    .countdown-area h2 {
+        display: none;
+    }
+
+    #clock-sec div > span {
+        font-size: 40px;
+    }
+
+    .clock-text {
+        font-size: 14px;
+        margin: 10px 0 0;
+    }
+
+    .left::after, .right::after {
+        left: -8px;
+    }
+
+    .quote-area p {
+        font-size: 1.5em;
+    }
+
+    .ggg h3 {
+        margin-top: 35px;
+    }
+
+    ul.port-nav-list li {
+        margin-bottom: 10px;
+    }
+
+    #contact-form {
+        margin-top: 50px;
+    }
+
+    .event-text h4 {
+        line-height: 1.7;
+    }
+
+    .welcome-text h4 {
+
+        font-size: 30px;
+    }
+
+    .discussion-items img {
+        width: 100%;
+    }
+
+    .single-footer p {
+        font-size: 15px;
+    }
+
+    .st-text {
+        padding: 30px 15px;
+    }
+
+    .st-text h1 {
+        font-size: 30px;
+    }
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .single-portfolio img {
+        width: 100%;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #ff4545;
+    }
+
+    .mouse-icon {
+        bottom: -300px;
+    }
+
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px){
+
+    .addressLeft span{
+        display:inline-block;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+
+    .single-blog .blog-img img {
+        width: 100%;
+    }
+
+    .welcome-text h2 {
+        font-size: 4.5em;
+    }
+
+    .welcome-text h2 {
+        font-size: 4.5em;
+    }
+
+    .people-text h3 {
+        font-size: 20px;
+    }
+    .people-text p a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .people-text p a i {
+
+        padding: 7px;
+
+    }
+
+}
+
+
