@@ -1,284 +1,491 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <meta content="Gough wedding" name="description" />
+    <meta content="gough, wedding, invitation, rsvp" name="keywords" />
+    <meta content="Gough" name="author" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Gough Wedding</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="gough wedding">
-    <meta name="author" content="Mike Gough">
-    <title>Wedding</title>
+    <link
+      href="favicon/apple-icon-57x57.png"
+      rel="apple-touch-icon"
+      sizes="57x57"
+    />
+    <link
+      href="favicon/apple-icon-60x60.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="favicon/apple-icon-72x72.png"
+      rel="apple-touch-icon"
+      sizes="72x72"
+    />
+    <link
+      href="favicon/apple-icon-76x76.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="favicon/apple-icon-114x114.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="favicon/apple-icon-120x120.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="favicon/apple-icon-144x144.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <link
+      href="favicon/apple-icon-152x152.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="favicon/apple-icon-180x180.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="favicon/android-icon-192x192.png"
+      rel="icon"
+      sizes="192x192"
+      type="image/png"
+    />
+    <link
+      href="favicon/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="favicon/favicon-96x96.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="favicon/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link href="favicon/manifest.json" rel="manifest" />
+    <meta content="#ffffff" name="msapplication-TileColor" />
+    <meta
+      content="favicon/ms-icon-144x144.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#ffffff" name="theme-color" />
 
-    <link rel="canonical" href="https://wedding.gough.me">
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Charmonman:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700"
+      rel="stylesheet"
+    />
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="loader_bg"><div class="loader"></div></div>
 
-    <link href="/css/stylesheet.css" rel="stylesheet" crossorigin="anonymous">
-
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
-    <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#563d7c">
-
-    <style>
-        :root {
-            --dress-colour: #968653;
-
-            --min-section-height: 600px;
-        }
-
-        body {
-            position: relative;
-        }
-
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-
-        /* font */
-        .wedding-cursive {
-            font-family: 'Tomatoes';
-            font-weight: bold;
-            font-style: normal;
-            color: var(--dress-colour);
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .wedding-icon {
-            color: var(--dress-colour);
-            margin-bottom: 14px
-        }
-
-        .btn-outline-primary {
-            color: var(--dress-colour);
-            border-color: var(--dress-colour)
-        }
-
-        .header-logo {
-            font-size: 1.5rem;
-            font-weight: 800;
-        }
-
-        .jumbotron {
-            min-height: 900px;
-            border-radius: 0;
-        }
-
-        .jumbotron h1 {
-            margin-top: 300px;
-            font-size: 4.5rem;
-        }
-
-        .jumbotron p {
-            font-size: 1.5rem;
-        }
-
-        .header {
-            z-index: 1000;
-        }
-
-        #details {
-            padding-top: 180px;
-            padding-bottom: 180px;
-            min-height: var(--min-section-height);
-        }
-
-        .details-box {
-            min-height: 280px;
-        }
-
-        .border {
-            border-color: var(--dress-colour) !important;
-        }
-
-        nav .text-muted {
-            color: var(--dress-colour) !important;
-        }
-
-        nav .text-muted {
-            color: var(--dress-colour) !important;
-        }
-
-        .nav-item + .nav-item {
-            margin-left: 10px
-        }
-
-        nav a:hover,
-        nav a:focus,
-        nav a:active,
-        nav .text-muted:hover,
-        nav .text-muted:focus,
-        nav .text-muted .active,
-        .nav-pills .nav-link.active,
-        .nav-pills .show>.nav-link {
-            text-decoration: none;
-            outline-style: none;
-            color: #fff !important;
-            transition: color 0.4s ease 0s;
-            background-color: var(--dress-colour) !important;
-        }
-
-        #destination {
-            display: block;
-            min-height: var(--min-section-height);
-            min-width: 100%;
-            background: url(images/destination.jpg) no-repeat center center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-
-            padding-top: 80px;
-        }
-
-        #destination:before {
-            content: '';
-            background-image: linear-gradient(to top, rgba(239, 239, 239, 255), rgba(239, 239, 239, 0));
-            position: relative;
-            height: 100px;
-            right: 0;
-            bottom: 0;
-            left: 0;
-        }
-
-        .pb-10 {
-            padding-bottom: 10px;
-        }
-
-        .btn-outline-primary:hover,
-        .btn-outline-primary:active,
-        .btn-outline-primary:focus,
-        .btn-outline-primary:not(:disabled):not(.disabled).active,
-        .btn-outline-primary:not(:disabled):not(.disabled):active,
-        .show>.btn-outline-primary.dropdown-toggle {
-            color: #fff;
-            background-color: var(--dress-colour);
-            border-color: var(--dress-colour);
-        }
-    </style>
-    <link href="css/all.min.css" rel="stylesheet">
-    <script src="/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-</head>
-
-<body data-spy="scroll" data-target="#nav-scroller" data-offset="0">
-    <div class="container-fluid sticky-top header bg-white border-bottom">
-        <header class="blog-header py-3">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-12 text-center justify-content-end align-items-center">
-                    <a class="header-logo text-dark wedding-cursive" href="#">Gough Wedding</a>
-                </div>
-            </div>
-        </header>
-
-        <div class="container-fluid sticky-top header bg-white">
-            <nav id="nav-scroller" class="nav justify-content-center pb-10">
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#details">The Details</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#destination">Destination</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#">Getting There</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#">Destination</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#">The Weekend</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#">Accomodation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="#">RSVP</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row jumbotron p-4 p-md-5 text-white bg-dark text-center">
-            <div class="col-md-12 px-0">
-                <h1 class="display-12 font-italic wedding-cursive">Mike and Alaina</h1>
-                <p class="lead my-3">Are getting married</p>
-            </div>
-        </div>
-
-        <div id="details" class="row">
-            <div class="col-md-12 d-flex align-self-stretch flex-column text-center">
-                <h3 class="wedding-cursive">The Details</h3>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch flex-column text-center">
-                <div
-                    class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm mb-4 h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static details-box">
-                        <i class="fas fa-user-tie fa-2x wedding-icon"></i>
-                        <h3 class="mb-0 wedding-cursive">Who</h3>
-                        <div class="mb-1 text-muted">Our dearest friends & family</div>
-                        <p class="card-text mb-auto">From near and far</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch flex-column text-center">
-                <div
-                    class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm mb-4 h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static details-box">
-                        <i class="fas fa-map-marked-alt fa-2x wedding-icon"></i>
-                        <h3 class="mb-0 wedding-cursive">Where</h3>
-                        <div class="mb-1 text-muted">Brindabella Hills Winery</div>
-                        <p class="mb-auto">156 Woodgrove Cl, Hall, ACT 2618, AUSTRALIA</p>
-                        <a href="https://goo.gl/maps/KyoE3FxTJZazUuNeAL" class="btn btn-outline-primary" role="button"
-                            style="margin-top:16px">See it on a Map</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch flex-column text-center">
-                <div
-                    class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm mb-4 h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static details-box">
-                        <i class="fas fa-calendar-day fa-2x wedding-icon"></i>
-                        <h3 class="mb-0 wedding-cursive">When</h3>
-                        <div class="mb-1 text-muted">12-14 Mar</div>
-                        <p class="mb-auto">March 2021</p><a href="https://goo.gl/maps/KyoE3FxTJZazUuNeAL"
-                            class="btn btn-outline-primary" role="button" style="margin-top:16px">Add to calendar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="destination" class="row">
-            <div class="col-md-12 d-flex align-self-stretch flex-column text-center">
-                <h3 class="wedding-cursive">The Destination</h3>
-                <p class="text-muted">Our dearest friends & family</p>
-                <p class="card-text mb-auto">From near and far</p>
-            </div>
-        </div>
-    </div>
-    <main role="main" class="container">
+    <header class="nav-area navbar-fixed-top">
+      <div class="container">
         <div class="row">
-        </div><!-- /.row -->
-    </main><!-- /.container -->
-</body>
+          <div class="col-md-12">
+            <div class="main-menu">
+              <div class="navbar navbar-cus">
+                <div class="navbar-header">
+                  <a class="navbar-brand wedding-cursive" href="index.html"
+                    >Gough Wedding</a
+                  >
+                  <button
+                    class="navbar-toggle"
+                    data-target=".navbar-collapse"
+                    data-toggle="collapse"
+                    type="button"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <nav>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="active">
+                        <a class="smooth-menu" href="#home">Home</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#couple">Couple</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#details">The Details</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#event">Events</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#rsvp">RSVP</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="home"></div>
+    <div class="banner-area" id="slider-area">
+      <div id="particles-js"></div>
+      <div class="banner-table">
+        <div class="banner-table-cell">
+          <div class="welcome-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Alaina <span>&</span> Mike</h2>
+                  <h4>Are Getting Married on the</h4>
+                  <h5>13th of March 2021</h5>
+                  <div class="clearfix"></div>
+                  <div class="mouse-icon hidden-sm hidden-xs">
+                    <div class="wheel"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="couple-area section-padding" id="couple">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <h2 class="wedding-cursive">Happy Couple</h2>
+              <img alt="border image" src="images/home/line1.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum, saepe!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="wrapper bb-left">
+              <div class="imageHover">
+                <div class="img-text">
+                  <h3>The Bride</h3>
+                </div>
+                <div class="img-area thing1"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <div class="male-text">
+              <h2>Alaina Regan</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                aspernatur dignissimos dolor ea et excepturi exercitationem iure
+                laboriosam laborum nulla omnis, placeat quidem quis rerum saepe
+                sapiente similique sunt tenetur. At dolorem doloribus, eos hic
+                illo minus neque perferendis quasi! Cum incidunt labore officia
+                ullam veniam. Accusantium doloribus expedita officiis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="line"></p>
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <div class="male-text">
+              <h2>Mike Gough</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                aspernatur dignissimos dolor ea et excepturi exercitationem iure
+                laboriosam laborum nulla omnis, placeat quidem quis rerum saepe
+                sapiente similique sunt tenetur. At dolorem doloribus, eos hic
+                illo minus neque perferendis quasi! Cum incidunt labore officia
+                ullam veniam. Accusantium doloribus expedita officiis.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="wrapper bb-right">
+              <div class="imageHover">
+                <div class="img-text">
+                  <h3>The Groom</h3>
+                </div>
+                <div class="img-area thing"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="countdown-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Countdown Begins ...</h2>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 text-center">
+            <div id="clock-sec">
+              <div>
+                <span class="days"></span>
+                <div class="clock-text">Days</div>
+              </div>
+              <div>
+                <span class="hours"></span>
+                <div class="clock-text">Hours</div>
+              </div>
+              <div>
+                <span class="minutes"></span>
+                <div class="clock-text">Minutes</div>
+              </div>
+              <div>
+                <span class="seconds"></span>
+                <div class="clock-text">Seconds</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="story-area section-padding" id="details">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <h2 class="wedding-cursive">The Details</h2>
+              <img alt="border image" src="images/home/line1.png" />
+              <p>Add details here.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row st-area">
+          <div class="col-md-6 cus-padd">
+            <img src="images/destination.jpg" alt="" />
+          </div>
+          <div class="col-md-6 cus-padd">
+            <div class="st-text">
+              <h1 class="wedding-cursive">Where</h1>
+              <h5 class="mb-1 text-muted">Brindabella Hills Winery</h5>
+              <p>156 Woodgrove Cl, Hall, ACT 2618, AUSTRALIA</p>
+              <a
+                href="https://goo.gl/maps/KyoE3FxTJZazUuNeAL"
+                class="btn btn-outline-primary"
+                role="button"
+                style="margin-top: 16px"
+                >See it on a Map</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row st-area">
+          <div class="col-md-6">
+            <div class="st-text">
+              <h1 class="wedding-cursive">When</h1>
+              <h5 class="mb-1 text-muted">12-14 March 2021</h5>
+              <p>Add details here.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 cus-padd">
+            <img src="images/destination2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event-area section-padding" id="event">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <h2 class="wedding-cursive">Events</h2>
+              <img alt="border image" src="images/home/line2.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum, saepe!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="event-carousel owl-carousel">
+              <div class="single-event">
+                <div class="event-text text-center">
+                  <h3>Wedding Ceremony</h3>
+                  <h4>Sat, 13th March, 5.00 PM - 6.00 PM</h4>
+                  <h5>Brindabella Hills Winery</h5>
+                  <p>Add details here.</p>
+                </div>
+              </div>
+              <div class="single-event">
+                <div class="event-text text-center">
+                  <h3>Wedding Dinner</h3>
+                  <h4>Sat, 13th March, 6.00 PM - 8.00 PM</h4>
+                  <h5>Brindabella Hills Winery</h5>
+                  <p>Add details here.</p>
+                </div>
+              </div>
+              <div class="single-event">
+                <div class="event-text text-center">
+                  <h3>Reception Party</h3>
+                  <h4>Sat, 13th March, 8.00 PM - 11.00 PM</h4>
+                  <h5>Brindabella Hills Winery</h5>
+                  <p>Add details here.</p>
+                </div>
+              </div>
+              <div class="single-event">
+                <div class="event-text text-center">
+                  <h3>Brunch</h3>
+                  <h4>Sun, 14th March, 8.00 AM - 11.00 AM</h4>
+                  <h5>Brindabella Hills Winery</h5>
+                  <p>Add details here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rsvp-area section-padding" id="rsvp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <h2 class="wedding-cursive">Are You Attending</h2>
+              <img alt="border image" src="images/home/line1.png" />
+              <p>RSVP using the form below.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-contact-form">
+            <form
+              action="contact.php"
+              id="contact-form"
+              method="post"
+              name="contact-form"
+            >
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        data-error="Fullname is required."
+                        id="form_name"
+                        name="name"
+                        placeholder="Name *"
+                        required="required"
+                        type="text"
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        data-error="Valid email is required."
+                        id="form_email"
+                        name="email"
+                        placeholder="Email *"
+                        required="required"
+                        type="email"
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        data-error="Leave a message for us"
+                        id="form_message"
+                        name="message"
+                        placeholder="Message *"
+                        required="required"
+                        rows="4"
+                      ></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <button class="btn btn-send" value="">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="single-footer text-center">
+              <h2>Don't Miss It</h2>
+              <p>March, 13th 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
