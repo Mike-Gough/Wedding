@@ -413,13 +413,13 @@ img {
 
 .banner-table-cell {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .welcome-text {
   color: #ffffff;
-  margin-top: 500px;
 }
 
 .welcome-text h2 {
